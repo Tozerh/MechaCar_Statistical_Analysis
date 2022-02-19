@@ -25,3 +25,11 @@ That said, there is a clear issue with Lot 3 that will need be investigated. The
 
 Given how little variance we see in Lot 1 and Lot 2, the variance in Lot 3 seems anomalous and the manufacturing techniques and machinery used for Lot 3 should be investigated as soon as possible. 
 
+## T-Tests on Suspension Coils
+Our t-tests compare means of a sample of population to determine whether or not means are statistically similar or not. 
+Our null hypothesis for this suspension coils t-test is that the true difference in means between our sample and our population is equal to zero while our alternative hypothesis is that the true difference in means between our sample and our population is not equal to zero. 
+
+As we cal see above from suspension coil summary findings, the variance in Lot3 should translate into an overall rejection of the null hypothesis, and we should find in our t-tests that the means of Lot3 versus our population are no statistically similar. This rejection of the null hypothesis for Lot3 should also have an effect on the sample of the overall population (i.e., all three lots) to the total population. 
+
+The t-test results for a sample of all three lots is as follows:
+
