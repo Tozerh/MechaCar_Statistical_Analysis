@@ -31,5 +31,27 @@ Our null hypothesis for this suspension coils t-test is that the true difference
 
 As we cal see above from suspension coil summary findings, the variance in Lot3 should translate into an overall rejection of the null hypothesis, and we should find in our t-tests that the means of Lot3 versus our population are no statistically similar. This rejection of the null hypothesis for Lot3 should also have an effect on the sample of the overall population (i.e., all three lots) to the total population. 
 
-The t-test results for a sample of all three lots is as follows:
+The t-test results for a sample from all lots combined are as follows:
+
+[!AlltTest](https://github.com/Tozerh/MechaCar_Statistical_Analysis/blob/main/Lot1AllTtest.PNG)
+
+The p-value resulting from this test indicates that we cannot accept the null hypothesis, and should instead assume that the true difference in mean is not equal to zero. This result would support that the variance from Lot3 is such that it is having a statistically significant impact on our difference in means test. 
+
+Lot1 and Lot2 had small p-value results in our in individual t-tests, very close to our .05 threshhold, indicating that the difference in the mean of these lots is effecitvely zero and is not a result of random chance:
+
+Lot1 T-Test Results: 
+
+[!Lot1Test](https://github.com/Tozerh/MechaCar_Statistical_Analysis/blob/main/Lot1Ttest.PNG)
+
+Lot2 T-Test Results:
+
+[!Lot2Test](https://github.com/Tozerh/MechaCar_Statistical_Analysis/blob/main/Lot2Ttest.PNG)
+
+Given that Lot1 and Lot2 were not causing the variance seen in the difference between a sample of all lots and our population, we would expect a much higher p-value for Lot3 to explain the overall variance in means, and indeed that is what we see with our t-test result for Lot3: 
+
+[!Lot3Test](https://github.com/Tozerh/MechaCar_Statistical_Analysis/blob/main/Lot3Ttest.PNG)f
+
+The p-value for our Lot3 t-test is .1818, meaning that we should reject the null hypothesis and that there is statistically significant reason that the difference in means bewteen our Lot3 sample and our overall population is not zero. In our case, the variance in PSI for Lot3 is causing this significant divergence in mean. 
+
+
 
