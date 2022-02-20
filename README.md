@@ -53,5 +53,16 @@ Given that Lot1 and Lot2 were not causing the variance seen in the difference be
 
 The p-value for our Lot3 t-test is .1818, meaning that we should reject the null hypothesis and that there is statistically significant reason that the difference in means bewteen our Lot3 sample and our overall population is not zero. In our case, the variance in PSI for Lot3 is causing this significant divergence in mean. 
 
-
-
+ ## Study Design: MechaCar vs Competition
+ 
+For further statistical study on the MechaCar project, I would suggest studying the effect of cost across the metric maintenance cost. Many consumers want to know how much value they are getting long-term with a large purchase like an automobile, and MechaCar should be positioned to address these market concerns. 
+ 
+ For this study, my null and alternative hypotheses would be: 
+ 
+ H<sub>0</sub>: MechaCar's average ratio of cost to maintenance costs is the same as its competitors. 
+ H<sub>a</sub>: MechaCar's average ratio of cost to maintenance costs is not he same as its competitors. 
+ 
+ In order to test this hypothesis, I would first create a dataset that establishes the ratio of MechaCar's purchase price to its projected maintenance costs over time. I would also create a data set that includes MechaCars cost:maintenance ratio along with the cost:maintenance cost for other makes and models of cars in the same general class. Selecting for the general class of automobile will ensure that we are not sampling a populatioh whose basic foundation (wheelbase and weight) are significantly different than MechaCar. 
+ 
+ Once I have established the data sets, I would want to create a t-test to compare the average cost:maintenance ratio for the population against a subset of just MechaCar. In doing so, we would be able to determine if MechaCar's cost:maintenance ratio is statistically similar to its competitors or not. If the ratio is statistically simliar, then we would want to exclude this data as part of our key advertising metrics when selling our MechaCar against other makes and models. 
+ 
